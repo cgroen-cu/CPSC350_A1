@@ -344,13 +344,13 @@ string processDNA::printVariance(){
   double n2 = (nSum*nSum)/countLines;
     //DEBUG INFO
   //cout << n1 << endl;
-  cout << n2 << endl;
+  // cout << n2 << endl;
   double n1 = (sumSquares-n2)/(countLines-1);
     //DEBUG INFO
-  cout << sumSquares << endl;
-  cout << n1 << endl;
-  cout << countLines << endl;
-  cout << (sumSquares-n1) << "/" << (countLines-1) << endl;
+  // cout << sumSquares << endl;
+  // cout << n1 << endl;
+  // cout << countLines << endl;
+  // cout << (sumSquares-n1) << "/" << (countLines-1) << endl;
   //Add the calculations to return string
   text += to_string(n1) + "\n";
   text += "The Standard Deviation is: " + to_string(sqrt(n1)) + "\n";
