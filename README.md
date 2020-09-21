@@ -15,14 +15,7 @@ main.cpp
 
 Code limitations:
 Incorrect file input will not return an error but will output a blank and incorrect output.
-
-Additionally, I had used this link 
-https://www.statisticshowto.com/probability-and-statistics/descriptive-statistics/sample-variance/
-To figure out the steps to calculating Variance and standard deviation.
-However, now I see this website holds incorrect information, or at least incorrect in the
-assignments context, and the steps to calculate the variance they offer are incorrect.
-Therefore, my steps in the code to calculate the variance returns an incorrect variance, and
-then an incorrect Standard Deviation.
+(Originally had a variance issue but I fixed it)
 
 
 References:
