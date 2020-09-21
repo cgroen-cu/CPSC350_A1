@@ -345,7 +345,7 @@ string processDNA::printVariance(){
     //DEBUG INFO
   //cout << n1 << endl;
   // cout << n2 << endl;
-  double n1 = (sumSquares-n2)/(countLines-1);
+  double n1 = (sumSquares-n2)/(countLines);
     //DEBUG INFO
   // cout << sumSquares << endl;
   // cout << n1 << endl;
